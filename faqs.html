@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+Student Name:Widly Delone
+File Name:faqs.html
+Date:04/28/2023
+--> 
+<html lang="en">
+  <head>
+    <title>Welcome to My Webpage !</title>
+     <meta charset="utf-8">
+     <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Josefin+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+<div class="scroll-btns">
+  <button class="scroll-top-btn" title="Scroll to Top">Top</button>
+    </div>
+    <div id="wrapper">
+
+         <!-- Mobile Nav -->
+      <nav class="mobile-nav">
+      <div id="nav-links">
+        <a href="index.html">Home Page</a>
+        <a href="contact.html">Contact Page</a>        
+        <a href="hbculife.html">HBCU Life</a>
+        <a href="faqs.html">Frequently Asked Questions</a>
+        <a href="heritage.html">Culture and Heritage</a>
+        </div>
+        <a class="nav-icon" onclick="menu()">
+            <div id="icon">&#9776;</div>
+        </a>
+      </nav>
+
+  <header>
+    <h1> Frequently Asked Questions<span class="wave">👋</span></h1>
+	<div class="tab-desk">
+	</div>
+	<div class="mobile">
+		</div>
+  </header>
+ <nav class="desktop-nav">
+    <ul>
+	 <li> <a href="index.html">Home Page</a></li>
+	 <li> <a href="contact.html">Contact Page</a></li>
+    <li> <a href="hbculife.html">HBCU Life</a> </li>
+  <li><a href="faqs.html">Frequently Asked Questions</a></li>
+    <li><a href="heritage.html">Culture and Heritage</a></li> 
+ 		</ul>
+  </nav>
+  
+  <main>
+		<div>
+		 <img src="images/question.jpeg" alt="Q and A Picture" class="round">
+     <h2>As a Computer Science major here are some questions I have been asked so far and reflected upon:</h2>
+		<ol>
+      <li>What programming languages and technologies are you most comfortable with, and how have you used them in past projects or experiences? </li>
+      <li>What experience do you have with programming languages and other technical tools?</li>
+      <li>Can you describe a coding project or problem you worked on and how you approached it?</li>
+      <li>What do you think are some of the biggest challenges facing underrepresented minorities in computer science?</li>
+      <li>Finally, what do you hope to achieve with a computer science degree and how do you think attending an HBCU has prepared you for that career?</li>
+      </ol>
+      <br>
+      <h2>Here are my answers: </h2>
+      <ol>
+		<li>Out of all the programming languages I've learned so far, SQL, feels particularly comfortable to me. In fact, I recently used SQL in a project where my partner and I built a database from scratch, and we were able to effectively create, update, and delete data using SQL.</li>
+    <li>Although coding and programming are not part of my daily life, I have gained tremendous confidence in using SQL through completing class projects and homework assignments. I hope to continue growing my skills in database management systems, as I believe it will enable me to find innovative solutions to problems in my career as an automotive engineer.</li>
+    <li>There was a coding project that I struggled with for some time but once I got the ball rolling, everything else was like adding icing on the cake. The main issue I was having was creating an algorithm to tackle the tasks that needed to be completed within the code. I solved this issue by using a butterfly chart or A.K.A the "YES NO" flowchart. The project was to create a C++ program that can allow a user to select items from a restaurant menu and process the item(s) price, the quantity of the item, and to add sales tax based on the type of item that was selected by the user, and at the end of the program, there should be an output to display the items selected, the sales tax, the total price of the item and a message to thank the user for shopping with that restaurant. </li>
+    <li>I think one of biggest challenges that underrepresented minorities face in computer science is the lack of role models. A lot of minorities look past computer science because they sometimes lack mentors or hardly see any visible role models that look like them in the computer science field or major. They are usually found wanting to be rappers, influencers, involved in sports and much more because that is where they can find individuals that look like them, and so they look up to those individuals and try to follow in their footsteps. I would like to do my best and change that for future generations. </li>
+    <li>With a degree in computer science, my goal is to become an automotive software engineer or a database administrator in the automotive industry. I'm passionate about being part of the team that designs, builds, and programs the next generation of vehicles, making them not only safe but also fun to drive. I want to be part of the solution to make driving a more enjoyable and less stressful experience for everyone on the road. I believe that my HBCU has prepared me for my career by providing me with a strong academic background, real-world experience, and a supportive community that values diversity and inclusivity. I am proud to be an HBCU student and look forward to using the skills and knowledge I have gained to make a positive impact in my field.</li>
+    </ol>
+  <br>
+  </div>
+
+<div id= "form">
+		<h2>If you have any questions, please don't hesitate to ask :) Please fill out this form and I will contact you as soon as possible. Thank You !</h2>
+		<br>
+	<form class="form-grid">
+       
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="fName">First Name:</label>
+          <input type="text" name="fName" id="fName" required>
+
+          <label for="lName">Last Name:</label>
+          <input type="text" name="lName" id="lName" required>
+
+          <label for="sName">Name of School or Business:</label>
+          <input type="text" name="sbName" id="sbName" required>
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone">
+		  
+		  <label for="info">What additional questions do you have? </label>
+		  <textarea name="info" id="What additional questions do you have??" rows="5" cols="75"></textarea>
+        </fieldset>
+		
+		<input type="submit"  id="submit" value="Submit" class="btn">
+	</form>
+
+    </div>
+		
+  </main>
+ <footer>
+    <a href="contact.html">Widlydelone23@gmail.com</a>
+  <p></p>
+  
+  <a href="https://www.famu.edu/" class = "link" target="_ blank">FAMU Website: Florida A&M University</a>
+
+    <p>&copy; Copyright 2023. All Rights Reserved.</p>
+	
+  </footer>
+  <script src="scripts/button.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+	
+</html>
